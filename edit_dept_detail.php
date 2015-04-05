@@ -37,7 +37,8 @@
 </head>
 <body>
 	<br>
-	<a href="edit_department.php" class="back">BACK</a>
+	<?php echo'<a href="edit_department.php?id='.$result['id'].'" class="back">BACK</a><center>';?>
+	
 	<br><br>
 	<h1>Enter  <?php echo $field;?> for <?php echo $name;?></h1>
 	<form  method="post">
